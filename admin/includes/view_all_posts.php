@@ -149,6 +149,7 @@ if (isset($_POST['checkBoxArray'])) {
 </form>
 
 <script>
+  console.log('Test');
   document.querySelector('.delete_link').addEventListener('click', function() {
     alert("It works!");
   })
