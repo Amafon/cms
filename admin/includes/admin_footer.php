@@ -35,6 +35,7 @@
         loadUsersOnline();
 
         const tableBody = document.querySelector('tbody');
+        console.log(tablebody);
         tableBody.addEventListener('click', function() {
             console.log("Test");
             const target = this.closest('.delete_link');
