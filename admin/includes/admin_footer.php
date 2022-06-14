@@ -35,13 +35,13 @@
         loadUsersOnline();
 
         const tableBody = document.querySelector('.table');
-        console.log(tablebody);
-        tableBody.addEventListener('click', function() {
-            console.log("Test");
-            const target = this.closest('.delete_link');
-            const id = target.rel;
-            alert(id);
-        })
+        console.log(tableBody);
+        // tableBody.addEventListener('click', function() {
+        //     console.log("Test");
+        //     const target = this.closest('.delete_link');
+        //     const id = target.rel;
+        //     alert(id);
+        // })
     </script>
     </body>
 
