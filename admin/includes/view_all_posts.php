@@ -147,10 +147,3 @@ if (isset($_POST['checkBoxArray'])) {
     </tbody>
   </table>
 </form>
-
-<script>
-  console.log('Test');
-  document.querySelector('.delete_link').addEventListener('click', function() {
-    alert("It works!");
-  })
-</script>
