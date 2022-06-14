@@ -34,7 +34,7 @@
 
         loadUsersOnline();
 
-        const tableBody = document.querySelector('tbody');
+        const tableBody = document.querySelector('.table');
         console.log(tablebody);
         tableBody.addEventListener('click', function() {
             console.log("Test");
