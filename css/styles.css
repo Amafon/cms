@@ -1,0 +1,7 @@
+.pager li .active_link:link{
+  background-color: #f5f5f5 !important;
+}
+
+.pager li .active_link:visited{
+  background-color: #f5f5f5 !important;
+}
