@@ -34,8 +34,11 @@
 
         loadUsersOnline();
 
-        document.querySelector('.delete_link').addEventListener('click', function() {
-            const id = this.rel;
+        const tableBody = document.querySelector('tbody');
+        tableBody.addEventListener('click', function() {
+            console.log("Test");
+            const target = this.closest('.delete_link');
+            const id = target.rel;
             alert(id);
         })
     </script>
