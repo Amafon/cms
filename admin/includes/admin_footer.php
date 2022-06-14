@@ -33,9 +33,10 @@
         }
 
         loadUsersOnline();
-        console.log('Test');
+
         document.querySelector('.delete_link').addEventListener('click', function() {
-            alert("It works!");
+            const id = this.rel;
+            alert(id);
         })
     </script>
     </body>

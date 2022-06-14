@@ -137,7 +137,7 @@ if (isset($_POST['checkBoxArray'])) {
           <td><a href="../post.php?p_id=<?php echo $post_id; ?>">View</a></td>
           <td><a href="posts.php?source=edit_post&p_id=<?php echo $post_id; ?>">Edit</a></td>
           <!-- <td><a onclick="return confirm('Are you sure you wante to delete?')" href="posts.php?source=''&delete=<?php echo $post_id; ?>" class="delete-post">Delete</a></td> -->
-          <td><a href="" class="delete_link">Delete</a></td>
+          <td><a rel="$post_id" href="" class="delete_link">Delete</a></td>
           <td><a href="posts.php?source=''&reset=<?php echo $post_id; ?>">Reset</a></td>
           <td><?php echo $post_views_count; ?></td>
         </tr>
