@@ -34,18 +34,20 @@
 
         loadUsersOnline();
 
-        const deleteLink = document.querySelectorAll('.delete_link');
-        deleteLink.forEach(link => {
-            link.addEventListener('click', function() {
-                alert(this);
-            })
-        })
+        // const deleteLink = document.querySelectorAll('.delete_link');
+        // deleteLink.forEach(link => {
+        //     link.addEventListener('click', function() {
+        //         alert(this);
+        //     })
+        // })
 
         const table = document.querySelector('table');
         table.addEventListener('click', function(e) {
             e.preventDefault();
             const click = e.target;
-            console.log(click);
+            if (click.classList.contains('delete_link')) {
+                console.log('Action');
+            }
         })
     </script>
     </body>
