@@ -34,14 +34,12 @@
 
         loadUsersOnline();
 
-        const tableBody = document.querySelector('.table');
-        console.log(tableBody);
-        // tableBody.addEventListener('click', function() {
-        //     console.log("Test");
-        //     const target = this.closest('.delete_link');
-        //     const id = target.rel;
-        //     alert(id);
-        // })
+        const deleteLink = document.querySelector('.delete_link');
+        deleteLink.forEach(link => {
+            link.addEventListener('click', function() {
+                console.log(this);
+            })
+        })
     </script>
     </body>
 
