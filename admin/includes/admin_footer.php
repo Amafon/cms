@@ -42,7 +42,11 @@
         })
 
         const table = document.querySelector('table');
-        alert(table);
+        table.addEventListener('click', function(e) {
+            e.preventDefault();
+            const click = e.target;
+            console.log(click);
+        })
     </script>
     </body>
 
