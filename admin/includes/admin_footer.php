@@ -46,7 +46,7 @@
             e.preventDefault();
             const click = e.target;
             if (click.classList.contains('delete_link')) {
-                console.log('Action');
+                const id = click.rel;
             }
         })
     </script>

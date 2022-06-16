@@ -1,5 +1,5 @@
 <?php
-include "delete_modal.php";
+
 deletePost();
 resetPost();
 if (isset($_POST['checkBoxArray'])) {
