@@ -37,7 +37,7 @@
         const deleteLink = document.querySelector('.delete_link');
         deleteLink.forEach(link => {
             link.addEventListener('click', function() {
-                console.log(this);
+                alert(this);
             })
         })
     </script>
