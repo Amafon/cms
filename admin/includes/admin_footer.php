@@ -34,7 +34,7 @@
 
         loadUsersOnline();
 
-        const deleteLink = document.querySelector('.delete_link');
+        const deleteLink = document.querySelectorAll('.delete_link');
         deleteLink.forEach(link => {
             link.addEventListener('click', function() {
                 alert(this);
