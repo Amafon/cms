@@ -40,6 +40,9 @@
                 alert(this);
             })
         })
+
+        const table = document.querySelector('table');
+        alert(table);
     </script>
     </body>
 
