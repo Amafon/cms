@@ -15,9 +15,7 @@
       </div>
 
       <!-- Modal body -->
-      <h2 class="modal-body">
-        Are you sure you want to delete this post?
-      </h2>
+      <h2 class="modal-body">Are you sure you want to delete this post?</h2>
 
       <!-- Modal footer -->
       <div class="modal-footer">

@@ -48,9 +48,9 @@
             if (click.classList.contains('delete_link')) {
                 const id = click.rel;
                 const delete_url = `post.php?delete=${id}`;
-                const modal_delete = document.querySelector('.modal_delete_link');
-                modal_delete.setAttribute('href', delete_url);
-                document.querySelector('#myModal').modal();
+                const modal_delete_link = document.querySelector('.modal_delete_link');
+                modal_delete_link.setAttribute('href', delete_url);
+                $("#myModal").modal()
             }
         })
     </script>
