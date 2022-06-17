@@ -43,14 +43,13 @@
 
         const table = document.querySelector('table');
         table.addEventListener('click', function(e) {
-            // e.preventDefault();
             const click = e.target;
             if (click.classList.contains('delete_link')) {
                 const id = click.rel;
                 const delete_url = `post.php?delete=${id}`;
                 const modal_delete_link = document.querySelector('.modal_delete_link');
                 modal_delete_link.setAttribute('href', delete_url);
-                $("#myModal").modal('show')
+                $("#myModal").modal('show');
             }
         })
     </script>
