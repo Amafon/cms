@@ -47,6 +47,11 @@
             const click = e.target;
             if (click.classList.contains('delete_link')) {
                 const id = click.rel;
+                const delete_url = `post.php?delete=${id}`;
+                const modal_delete = document.querySelector('.modal_delete_link');
+                modal_delete.rel = delete_url;
+
+
             }
         })
     </script>

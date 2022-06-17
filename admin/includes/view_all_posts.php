@@ -53,6 +53,7 @@ if (isset($_POST['checkBoxArray'])) {
 ?>
 
 <form action="" method="post">
+  <?php include "delete_modalphp"; ?>
   <table class="table table-bordered table-hover">
     <div id="bulkOptionsContainer" class="col-xs-4">
       <select name="bulk_options" id="" class="form-control" required>
