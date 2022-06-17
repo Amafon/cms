@@ -43,6 +43,7 @@
 
         const table = document.querySelector('table');
         table.addEventListener('click', function(e) {
+            e.preventDefault();
             const click = e.target;
             if (click.classList.contains('delete_link')) {
                 const id = click.rel;
