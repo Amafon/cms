@@ -50,7 +50,7 @@
                 const delete_url = `post.php?delete=${id}`;
                 const modal_delete_link = document.querySelector('.modal_delete_link');
                 modal_delete_link.setAttribute('href', delete_url);
-                $("#myModal").modal()
+                $("#myModal").modal('show')
             }
         })
     </script>
