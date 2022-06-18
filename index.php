@@ -15,7 +15,7 @@
     if (!$find_count) die('Query Failed' . mysqli_error($connection));
     $num_rows = mysqli_num_rows($find_count);
     if ($num_rows < 1) {
-        echo "<h1>There is no post</h1>";
+                echo "<h1>No Post Available</h1>";
     } else {
                 $per_page = 5;
                 $post_per_page = ceil($num_rows / $per_page);
