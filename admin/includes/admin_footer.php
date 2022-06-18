@@ -43,9 +43,9 @@
 
         const table = document.querySelector('table');
         table.addEventListener('click', function(e) {
-            e.preventDefault();
             const click = e.target;
             if (click.classList.contains('delete_link')) {
+                e.preventDefault();
                 const id = click.rel;
                 const delete_url = `posts.php?delete=${id}`;
                 const modal_delete_link = document.querySelector('.modal_delete_link');
