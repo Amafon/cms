@@ -13,7 +13,7 @@
         <div class="col-md-8">
             <?php
             if (isset($_GET['category'])) $post_category_id = $_GET['category'];
-            $query = "SELECT * FROM posts WHERE post_category_id = '$post_category_id'";
+    $query = "SELECT * FROM posts WHERE post_category_id = '$post_category_id' AND post_status='published'";
             $select_all_posts_query = mysqli_query($connection, $query);
             if (!$select_all_posts_query) die('Query Failed' . mysqli_error($connection));
             $number_category_post = mysqli_num_rows($select_all_posts_query);
